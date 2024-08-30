@@ -1,4 +1,4 @@
-//
+//Program to check whether the number is even or odd.
 
 
 #include<bits/stdc++.h>
