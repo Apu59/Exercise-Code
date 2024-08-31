@@ -21,15 +21,10 @@ int main (){
     {
         cout<<"Both strings are equal "<<endl;
     }
-    else if(result < 0)
-    {
-        cout<<"String2 is larger than String1 "<<endl;
-    }
     else
     {
-        cout<<"String1 is larger than String2 "<<endl;
+        cout<<"Both strings are not equal "<<endl;
     }
-    
     
 
     return 0;
