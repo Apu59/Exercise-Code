@@ -29,9 +29,10 @@ int main (){
             }
             
         }
+        cout<<"Total Character : "<<(alphabets+digit+spchar)<<endl;
         cout<<"Total Alphabets : "<<alphabets<<endl;
         cout<<"Total Digits : "<<digit<<endl;
-        cout<<"Total Special Characters "<<spchar<<endl;
+        cout<<"Total Special Characters : "<<spchar<<endl;
         
 
 
