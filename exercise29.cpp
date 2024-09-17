@@ -13,9 +13,11 @@ int main (){
 
     for(count = 1; count <= N; count++)
     {
+        cout<<count<<" ";
         sum = sum + count;
     }
-
+    
+    cout<<endl;
     cout<<"The sum is : "<<sum<<endl;
 
     return 0;
