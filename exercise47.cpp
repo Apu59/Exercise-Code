@@ -1,7 +1,8 @@
-//Square pattern for special characters
+//Square pattern for characters
 
 #include<bits/stdc++.h>
 using namespace std;
+
 
 int main (){
 
@@ -10,8 +11,10 @@ int main (){
         cin>>n;
 
         for(int i = 0; i < n; i++){
+            char ch = 'A';
             for(int j = 0; j < n; j++){
-                cout<<"* ";
+                cout<<ch<<" ";
+                ch++;
             }
             cout<<endl;
         }
@@ -20,5 +23,5 @@ int main (){
 
 
 
-    return 0 ;
+    return 0;
 }
