@@ -15,7 +15,9 @@ int main (){
         for(int i = 0; i < size; i++){
             cin>>nums[i];
         }
+
         cout<<endl;
+
         cout<<"The array is : ";
         for(int i = 0; i < size; i++){
             cout<<nums[i]<<" ";
@@ -28,11 +30,12 @@ int main (){
     //Find the smallest number in the array 
         int smallest = INT_MAX;
         for(int i = 0; i < size; i++){
+            // smallest = min(nums[i] , smallest);  //We can use min function to compare between two numbers that which one is smallest. 
             if(nums[i] < smallest){
                 smallest = nums[i];
             }
         }
-            cout<<"The smallest number of the array is : "<<smallest<<endl;
+        cout<<"The smallest number of the array is : "<<smallest<<endl;
 
     return 0;
 }
