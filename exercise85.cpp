@@ -4,7 +4,7 @@
 #include<vector>
 using namespace std;
 
-int linerSearch(vector<int>& vec, int terget){
+int linerSearch(const vector<int>& vec, int terget){ //By using const the function can access the numbers vector without modifying it and by using & i can get better memory management.
         for(size_t i = 0; i < vec.size(); i++){  //size_t is unsinged int data type, it better to use insted of int in this case.
             if(vec[i] == terget){
                 return i;
