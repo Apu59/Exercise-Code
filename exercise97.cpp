@@ -1,4 +1,4 @@
-// Pass by reference for DSA
+// Pass by reference(Pointer) for DSA
 #include<iostream>
 using namespace std;
 
