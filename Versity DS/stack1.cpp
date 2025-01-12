@@ -4,7 +4,7 @@
 using namespace std;
 
 int S[5];
-int n = sizeof(S)/sizeof(int);   //Size = 5
+int n = sizeof(S)/sizeof(int); 
 int top = -1;
 
 bool isEmpty(){
@@ -74,8 +74,5 @@ int main (){
     peek();
     display();
     
-
-
-
     return 0;
 }
