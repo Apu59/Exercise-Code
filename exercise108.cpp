@@ -107,13 +107,10 @@ int main(){
     cout<<"Is the vector is empty : "<<vec_8.empty()<<endl;  //It returns bool output 1 and 0
 
     cout<<endl;
-    cout<<endl;
+    
     cout<<"Vector Iterators"<<endl;
 
-    vector<int> vec_9 = {1,2,3,4,5};
-    cout<<"Value of vec_9.begin() is : "<<*(vec_9.begin())<<endl; //It will return 1
-    cout<<"Value of vec_9.end() is : "<<*(vec_9.end())<<endl; //It will return 0 not 5 because it not pointing the lasrt element of the vector it is pointing the memory location after the 5 element
-
+    
 
 
     
