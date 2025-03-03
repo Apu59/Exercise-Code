@@ -1,20 +1,21 @@
 #include<iostream>
+#include<vector>
 #include<climits>
 using namespace std;
 
 int main(){
 
-
     int T;
     cin>>T;
 
-    int arr[T];
+    vector<int> arr(T);
     for(int i = 0; i < T; i++){
         cin>>arr[i];
     }
 
     int currentSum = 0;
     int maxSum = INT_MIN;
+
 
     for(int i = 0; i < T; i++){
         currentSum = currentSum + arr[i];
@@ -24,6 +25,7 @@ int main(){
     }
 
     cout<<maxSum<<endl;
+
 
     return 0;
 }
